@@ -24,7 +24,7 @@ class LibraryService:
         print(f"{user.name} has checked out '{book.title}'.")
 
     def return_book(self, user: User, title: str):
-        book = se;f.library,find_book(title)
+        book = self.library,find_book(title)
 
         if book is None:
             """Raise a book not found exception."""
