@@ -1,0 +1,52 @@
+[
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "isbn": "9780141439247"
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "isbn": "9780156013925"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "isbn": "9780061122415"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "isbn": "9780590353427"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9780618053267"
+  },
+  {
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "isbn": "9780062073488"
+  },
+  {
+    "title": "Dream of the Red Chamber",
+    "author": "Cao Xueqin",
+    "isbn": "9780140443423"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9780345339683"
+  },
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "isbn": "9780486275439"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "isbn": "9780307474278"
+  }
+]
