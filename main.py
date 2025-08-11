@@ -23,7 +23,7 @@ def main():
     library.register_user(user)
 
     try:
-        library_service.checkout_book(user, "To Kill a Mockingbird")
+        library_service.checkout_book(user, "A Tale of Two Cities")
     except Exception as e:
         print(f"Error: {e}")
 
