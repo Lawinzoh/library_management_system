@@ -1,0 +1,26 @@
+
+services:
+  mysql:
+    image: mysql:latest #official MySQL image
+    container_name: mysql_library-container
+    restart: always #restart if container stops
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+      MYSQL_DATABASE: demo_db
+      MYSQL_USER: demo_user
+      MYSQL_PASSWORD: demo_pass
+    ports:
+      - "3308:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql # persist data
+
+  adminer:
+    image: adminer # Adminer image for database management
+    container_name: adminer_ui
+    ports:
+      - "8080:8080" # Adminer web interface port
+    depends_on:
+      - mysql # ensure MySQL starts before Adminer
+
+volumes:
+  mysql_data:
